@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-scripts/ruby-matchit'
   Plug 'tpope/vim-abolish'
   Plug 'mattn/emmet-vim'
+  Plug 'ctrlpvim/ctrlp.vim'
 
  " Vim airline configs
   Plug 'bling/vim-airline'
@@ -192,7 +193,9 @@ call plug#begin('~/.vim/plugged')
   autocmd FileType less set tabstop=2|set softtabstop=2|set shiftwidth=2
   au BufEnter *.less set ai sw=2 ts=2 sta et fo=croql
   au BufEnter *.css set ai sw=2 ts=2 sta et fo=croql
-
+  
+  map <Leader>t :CtrlP<CR>
+  
 call plug#end()
 
 filetype plugin indent on
