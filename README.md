@@ -1,5 +1,4 @@
-# KMKLabs Vim Config
-Konfigurasi VIM untuk kebutuhan KMKLabs Engineer
+# Vim Config
 
 ## Pre-requisites
 
@@ -17,12 +16,12 @@ Jika versi ruby system tidak sama, silahkan install ruby menggunakan rvm atau rb
 ## Quick Install 
 ### With Wget
 ```
-sh -c "$(wget https://raw.githubusercontent.com/KMK-ONLINE/vim-config/master/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/hendyanto/vim-config/master/install.sh -O -)"
 ```
 
 ### With Curl
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/KMK-ONLINE/vim-config/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/hendyanto/vim-config/master/install.sh)"
 ```
 
 ## Customizing
